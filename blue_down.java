@@ -12,7 +12,7 @@ import org.firstinspires.ftc.teamcode.drive.SampleMecanumDrive;
 * Primeiro teste do autônomo "azul-superior"*/
 @Config
 @Autonomous(group = "drive")
-public class TestAutonomous extends LinearOpMode {
+public class b extends LinearOpMode {
     //Instâncias de edição dinâmica do Dashboard
     /*
     * Essas instâncias ajudam no momento de calibração dos passos do autônomo,
