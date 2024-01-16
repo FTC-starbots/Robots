@@ -113,15 +113,13 @@ public class BeatleTeleOp extends LinearOpMode {
                     garra_E.setPosition(0);
                 }
 
-                if (!gamepad1.a){
-                    if (gamepad1.b){
-                        garra_D.setPosition(0.75);
-                        garra_E.setPosition(0.75);
-                    }
-                    else {
-                        garra_D.setPosition(0);
-                        garra_E.setPosition(0);
-                    }
+                if (gamepad1.b){
+                    garra_D.setPosition(0.5);
+                    garra_E.setPosition(0.5);
+                }
+                else {
+                    garra_D.setPosition(0);
+                    garra_E.setPosition(0);
                 }
 
 
